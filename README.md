@@ -37,7 +37,7 @@ digitar: **`git push -u origin main`**
 * Ao editar um arquivo já versionado ou mesmo criar um novo arquivo que não existia na versão  
 anterior, **NÃO** é nescessário inicializar novamente o Git por meio do comando `git init`,  
 sendo assim execute **APENAS** os seguintes comandos em ordem:  
-    `git add.`
+    `git add .`
 
     `git status` para verificar os arquivos que estejam aguardando na staging area
 
