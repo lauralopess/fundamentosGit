@@ -78,3 +78,15 @@ e entrará nela, por exemplo: `git checkout -n novo-botao`
     <img src="img/imgBranch.PNG">  
 
 * Se nescessário retornar para branch `main` pelo terminal do Git, digite `git chekout main`
+
+## Merge
+
+* Ao retornar para a branch `main`, digite `git merge <nome da nova branch>` (no exemplo  
+acima, seria a branch chamada novoBotao), desse modo será possível **unificar a branch  
+alternativa e a branch principal em uma só**  
+
+* Assim, tudo o que tinha de alteração na branch novoBotao (por exemplo) se juntará à  
+branch `main`  
+
+* Para finalizar digite `git push origin main` e suba os arquivos para a branch principal  
+do repositório remoto
