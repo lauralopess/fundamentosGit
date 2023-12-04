@@ -37,7 +37,7 @@ digitar: **`git push -u origin main`**
 * Ao editar um arquivo já versionado ou mesmo criar um novo arquivo que não existia na versão  
 anterior, **NÃO** é nescessário inicializar novamente o Git por meio do comando `git init`,  
 sendo assim execute **APENAS** os seguintes comandos em ordem:  
-    `git add.`
+    `git add .`
 
     `git status` para verificar os arquivos que estejam aguardando na staging area
 
@@ -97,7 +97,7 @@ do repositório remoto
 * 1ª opção: clicar no botão `code` que se encontra no próprio Github e em seguida no botão  
 `download ZIP`, conforme a imagem abaixo  
 
-<img src="./img/imgClone.PNG">  
+  <img src="img/imgClone.PNG">  
 
 * 2ª opção: utilizando o mesmo link presente na imagem acima, abra o terminal e digite `git  
 clone <link copiado do repositório remoto>`  
