@@ -113,3 +113,5 @@ está desatualizado?
 
 * Para puxar **todas as alterações realizadas do repositório remoto (Github) para o seu  
 repositório local**, digite `git pull`
+
+* testando na prática o git pull
